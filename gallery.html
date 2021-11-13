@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+
+    <div class="gallery container">
+      <ul class="gallery__list list">
+
+        <li class="gallery__item ">
+          <div class="gallery__card">
+            <picture>
+              <source
+              srcset=
+              "./images/team/mob/team-2m-@x.jpg 1x,
+              ./images/team/mob/team-2m-@2x.jpg 2x"
+              media="(max-width: 767px)"
+              />
+              <source
+              srcset=
+              "./images/team/tab/team-2t.jpg 1x,
+              ./images/team/tab/team-2t@2x.jpg 2x"
+              media="(max-width: 1199px)"
+              />
+              <source
+              srcset=
+              "./images/team/descktop/team-2d.jpg 1x,
+              ./images/team/descktop/team-2d@2x.jpg 2x"
+              media="(min-width: 1200px)"
+              />
+              <img 
+              src="./images/team/descktop/team-2d.jpg"
+              alt="Ольга Репина" />
+          </picture> 
+          </div>
+        </li>
+
+        <li class="gallery__item ">
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+        </li>
+
+        <li class="gallery__item ">
+          <div class="gallery__card gallery__card_x2"></div>
+          <div class="gallery__card"></div>
+        </li>
+
+        <li class="gallery__item ">
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+        </li>
+
+        <li class="gallery__item up ">
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+        </li>
+
+        <li class="gallery__item ">
+          <div class="gallery__card"></div>
+        </li>
+   </ul>
+     
+    </div>
+</body>
+</html>
